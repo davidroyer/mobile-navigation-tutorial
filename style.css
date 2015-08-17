@@ -193,11 +193,14 @@ p {
   transform: translateX(100%);
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
-  transition: all .3s ease-in-out; }
+  -ms-transform: translateX(100%);
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out; }
   .nav--open {
     transform: translateX(0);
     -webkit-transform: translateX(0);
-    -moz-transform: translateX(0); }
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0); }
   .nav__trigger {
     position: fixed;
     top: 25px;
